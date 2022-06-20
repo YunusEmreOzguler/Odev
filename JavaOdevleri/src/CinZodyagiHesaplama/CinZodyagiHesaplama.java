@@ -56,7 +56,7 @@ public class CinZodyagiHesaplama {
 		}
 		
 		
-		
+	input.close();	
 	}
 	
 }
