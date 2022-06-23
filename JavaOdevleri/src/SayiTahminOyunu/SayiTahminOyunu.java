@@ -20,7 +20,6 @@ public class SayiTahminOyunu {
         boolean isWin = false;
         boolean isWrong = false;
 
-        //System.out.println(number);
         
         while (right < 5) {
         
@@ -83,6 +82,7 @@ public class SayiTahminOyunu {
         	if (!isWrong) {
             
         		System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
+        		System.out.println("Gizli Sayi : " + number);
             
         	}
         }
